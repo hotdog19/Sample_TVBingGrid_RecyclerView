@@ -54,7 +54,7 @@ public class MainActivity extends ActionBarActivity {
             tv.setLayoutParams(new ViewGroup.LayoutParams(240, ViewGroup.LayoutParams.WRAP_CONTENT));
             tv.setText("hecheng:" + i);
             tv.setTextColor(Color.WHITE);
-
+            tv.setGravity(Gravity.CENTER_HORIZONTAL);
             headerLL.addView(tv);
         }
 
